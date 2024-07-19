@@ -13,7 +13,7 @@ Many people have presented various different ways to craft data flow diagrams ov
 | Data store|  = 🛢️ | A double line or cylinder (drum). Anywhere data is stored, including files, databases, shared memory, bucket, cookies, etc.
 | Connection flows| → | An arrow. All the ways that processes can connect to data stores or each others.
 | Data flows| ⇢ | A dotted arrow. All the ways that data can flow between entities, processes and data stores.
-| Trust boundary | . . . | A closed shape drawn with a dashed line. Usually a box.
+| Trust boundary | ----- | A closed shape drawn with a dashed line. Usually a box.
 | Cloud | ☁️ | A cloud (like in cloud computing). Anything that is not under your control and is not a direct user. Usually outbound connection but can be inbound like with callbacks and hooks.
 
 
